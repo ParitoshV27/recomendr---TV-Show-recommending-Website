@@ -1,0 +1,742 @@
+body{
+    background: #031136;
+}
+.navbar{
+    position: fixed;
+width: 100%;
+height: 77px;
+left: 0px;
+top: 0px;
+z-index: 1;
+background: #000000;
+opacity: 0.87;
+}
+ul{
+    display: flex;
+    gap: 75px;
+    list-style: none;
+    position: absolute;
+width: 533px;
+height: 35px;
+left: 850px;
+top: 7px;
+}
+.logo{
+    position: absolute;
+    width: 163px;
+    height: 60px;
+    left: 22px;
+    top: 13px;
+    color: orangered;
+    font-family: 'Jomhuria', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+}
+.list-item{
+    font-family: 'Hiragino Kaku Gothic Std';
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 34px;
+color: aliceblue;
+cursor: pointer;
+}
+.list-item:hover{
+    
+    color: rgb(212, 212, 212);
+}
+.active{
+    color:orangered;
+}
+.blur{
+    filter: blur(3px);
+}
+.welcome{
+    position: absolute;
+width: 1350px;
+height: 96px;
+left: 54px;
+top: 540px;
+font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 48px;
+color: aliceblue;
+}
+.dramastext{
+    position: absolute;
+width: 112px;
+height: 43px;
+left: 50px;
+top: 60px;
+font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+color:aliceblue;
+}
+.sitcomstext{
+    position: absolute;
+width: 112px;
+height: 43px;
+left: 50px;
+top: 360px;
+font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+color: aliceblue;
+}
+.dramediestext{
+    position: absolute;
+width: 112px;
+height: 43px;
+left: 50px;
+top: 660px;
+font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+color: aliceblue;
+}
+.thrillerstext{
+    position: absolute;
+width: 112px;
+height: 43px;
+left: 50px;
+top: 960px;
+font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+color: aliceblue;
+}
+.insitcomstext{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 50px;
+top: 1260px;
+font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+color: aliceblue;
+}
+.eatnwatchtext{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 50px;
+top: 1560px;
+font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+color: aliceblue;
+}
+.showcard-1{
+    display: flex;
+    gap:20px;
+    position:relative;
+    width: 346px;
+    height: 206px;
+    left:50px;
+    top:145px;
+    border-radius: 5px;
+}
+.showcard-2{
+    display: flex;
+    gap:20px;
+    position:absolute;
+    width: 346px;
+    height: 206px;
+    left:50px;
+    top:445px;
+    border-radius: 5px;
+}
+.showcard-3{
+    display: flex;
+    gap:20px;
+    position:absolute;
+    width: 346px;
+    height: 206px;
+    left:50px;
+    top:745px;
+    border-radius: 5px;
+}
+.showcard-4{
+    display: flex;
+    gap:20px;
+    position:absolute;
+    width: 346px;
+    height: 206px;
+    left: -30px;
+    top:1045px;
+    border-radius: 5px;
+}
+.showcard-5{
+    display: flex;
+    gap:20px;
+    position:absolute;
+    width: 346px;
+    height: 206px;
+    left:50px;
+    top:1345px;
+    border-radius: 5px;
+}
+.showcard-6{
+    display: flex;
+    gap:20px;
+    position:absolute;
+    width: 346px;
+    height: 206px;
+    left:50px;
+    top:1645px;
+    border-radius: 5px;
+}
+.bbcard{
+    transition: 1000ms;
+}
+.bbcard:hover{
+    scale:1.3;
+    z-index: 1;
+}
+.gotcard{
+    transition: 1000ms;
+}
+.gotcard:hover{
+    scale: 1.3;
+    z-index: 1;
+}
+.twdcard{
+    transition: 1000ms;
+}
+.twdcard:hover{
+    scale:1.3;
+    z-index: 1;
+}
+.vikingscard{
+    transition: 1000ms;
+}
+.vikingscard:hover{
+    scale:1.3;
+    z-index: 1;
+}
+.darkcard{
+    transition: 1000ms;
+}
+.darkcard:hover{
+    scale:1.3;
+    z-index: 1;
+}
+.sopcard{
+    transition: 1000ms;
+}
+.sopcard:hover{
+   scale:1.3;
+    z-index: 1;
+}
+.hotdcard{
+    transition: 1000ms;   
+}
+.hotdcard:hover{
+    scale:1.3;
+    z-index: 1;
+}
+.wirecard{
+    transition: 1000ms;
+}
+.wirecard:hover{
+    scale:1.3;
+}
+.iasipcard{
+    transition: 1000ms;
+}
+.iasipcard:hover{
+    scale:1.3;
+}
+.modfamcard{
+    transition: 1000ms;
+}
+.modfamcard:hover{
+    scale:1.3;
+}
+.communitycard{
+    transition: 1000ms;
+}
+.communitycard:hover{
+    scale:1.3;
+}
+.tbbtcard{
+    transition: 1000ms;
+}
+.tbbtcard:hover{
+    scale:1.3;
+}
+.pnrcard{
+    transition: 1000ms;
+}
+.pnrcard:hover{
+    scale:1.3;
+}
+.mitmcard{
+    transition: 1000ms;
+}
+.mitmcard:hover{
+    scale:1.3;
+}
+.friendscard{
+    transition: 1000ms;
+}
+.friendscard:hover{
+    scale:1.3;
+}
+.theofficecard{
+    transition: 1000ms;
+}
+.theofficecard:hover{
+    scale:1.3;
+}
+.tmkoccard{
+    transition: 1000ms;
+}
+.tmkoccard:hover{
+    scale:1.3;
+}
+.theboyscard{
+    transition: 1000ms;
+}
+.theboyscard:hover{
+    scale:1.3;
+}
+.arrdevcard{
+    transition: 1000ms;
+}
+.arrdevcard:hover{
+    scale: 1.3;
+}
+.omitbcard{
+    transition: 1000ms;
+}
+.omitbcard:hover{
+    scale: 1.3;
+}
+.barrycard{
+    transition: 1000ms;
+}
+.barrycard:hover{
+    scale:1.3;
+}
+.tedlassocard{
+    transition: 1000ms;
+}
+.tedlassocard:hover{
+    scale:1.3;
+}
+.strthicard{
+    transition: 1000ms;
+}
+.strthicard:hover{
+    scale:1.3;
+}
+.mindhuntercard{
+    transition: 1000ms;
+}
+.mindhuntercard:hover{
+    scale:1.3;
+}
+.ozarkcard{
+    transition: 1000ms;
+}
+.ozarkcard:hover{
+    position: fixed;
+    scale:1.3;
+}
+.constellationcard{
+    transition: 1000ms;
+}
+.constellationcard:hover{
+    scale:1.3;
+}
+.sloknkcard{
+    transition: 1000ms;
+}
+.sloknkcard:hover{
+    scale:1.3;
+}
+.shakeitupcard{
+    transition: 1000ms;
+}
+.shakeitupcard:hover{
+    scale:1.3;
+}
+.bolncard{
+    transition: 1000ms;
+}
+.bolncard:hover{
+    scale:1.3;
+}
+.oyejascard{
+    transition: 1000ms;
+}
+.oyejascard:hover{
+    scale:1.3;
+}
+.fircard{
+    transition: 1000ms;
+}
+.fircard:hover{
+    scale:1.3;
+}
+.bgphcard{
+    transition: 1000ms;
+}
+.bgphcard:hover{
+    scale:1.3;
+}
+.showslider{
+    display: flex;
+    gap:10px;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 412px;
+    border-radius: 10px;
+    }
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slider1{
+        width: 733px;
+    height: 412px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateX(50%);
+}
+.slider2{
+    width: 733px;
+    height: 412px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateX(50%);
+}
+.slider3{
+    width: 733px;
+    height: 412px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateX(50%);
+}
+.slider4{
+    width: 733px;
+    height: 412px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateX(50%);
+}
+.slider5{
+    width: 733px;
+    height: 412px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateX(50%);
+}
+.sliderbtn{
+    color:white;
+    width: 25px;
+    height: 20px;
+}
+.sliderbtn{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 25px;
+}
+.slider__btn--left{
+    left: 26%;
+    top: 310px;
+}
+.slider__btn--right{
+    left:72%;
+    top: 310px;
+
+}
+.categoriescon{
+    position: absolute;
+    width:100%;
+    height: 1959px;
+    left: 0px;
+    top:700px;
+    bottom: 2529px;
+    background-color: rgb(129, 175, 214, 0);
+}
+.captiontext{
+    font-family: 'Kaisei Opti';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 43px;
+color:aliceblue;
+cursor: pointer;
+}
+.bbcaption{
+        position: absolute;
+width: 200px;
+height: 43px;
+left: 255px;
+top: 200px;
+z-index: 1;
+}
+.gotcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 625px;
+top: 200px;
+z-index: 1;
+}
+.twdcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 995px;
+top: 200px;
+z-index: 1;
+}
+.vikingscaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 1360px;
+top: 200px;
+z-index: 1;
+}
+.darkcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 1723px;
+top: 200px;
+z-index: 1;
+}
+.sopcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 2088px;
+top: 200px;
+z-index: 1;
+}
+.hotdcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 2455px;
+top: 200px;
+z-index: 1;
+}
+.wirecaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 2825px;
+top: 200px;
+z-index: 1;
+}
+.theofficecaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 250px;
+top: 197px;
+z-index: 1;
+}
+.iasipcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 625px;
+top: 197px;
+z-index: 1;
+}
+.modfamcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 995px;
+top: 197px;
+z-index: 1;
+}
+.friendscaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 1360px;
+top: 197px;
+z-index: 1;
+}
+.mitmcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 1723px;
+top: 197px;
+z-index: 1;
+}
+.tbbtcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 2088px;
+top: 197px;
+z-index: 1;
+}
+.communitycaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 2455px;
+top: 197px;
+z-index: 1;
+}
+.pnrcaption{
+    position: absolute;
+width: 200px;
+height: 43px;
+left: 2825px;
+top: 197px;
+z-index: 1;
+}
+.hidden{
+    transition: 1000ms;
+    opacity: 0;
+
+}
+.catslider1{
+    position:relative;
+    left:93%;
+    top: 110px;
+    gap: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 110px;
+}
+.catslider2{
+    position:relative;
+    left:93%;
+    top: 160px;
+    gap: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 110px;
+}
+.catslider3{
+    position:relative;
+    left:93%;
+    top: 477px;
+    gap: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 110px;
+}
+.catslider4{
+    position:relative;
+    left:93%;
+    top: 730px;
+    gap: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 110px;
+}
+.catslider5{
+    position:relative;
+    left:89%;
+    top: 1030px;
+    gap: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 110px;
+}
+.catslider6{
+    position:relative;
+    left:85%;
+    top: 1335px;
+    gap: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 110px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: orangered;
+    left: 0px;
+    top: 2600px;
+}
+.gplaybtn{
+    position: absolute;
+    height: 300px;
+    width: 900px;
+    scale: 0.2;
+    top: -100px;
+    left: 170px;
+
+}
+.appstorebtn{
+    position: absolute;
+    height: 300px;
+    width: 900px;
+    scale: 0.2;
+    top: -100px;
+    left: 370px;
+}
+.wlmodal{
+    position: fixed;
+    z-index: 1;
+    left:74.5%;
+    width: 400px;
+    background-color: orangered;
+    height: 2680px;
+    opacity: 95%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    
+}
+.hrline{
+    position: relative;
+    top: 20px;
+}
+.close-modal{
+    color: aliceblue;
+    font-size: 200%;
+    position: relative;
+    left: 82%;
+    top: 14px;
+    cursor: pointer;
+}
+.close-modal:hover{
+    color:rgb(199, 207, 214)
+}
+.wlitems{
+    position: absolute;
+    height: 100px;
+    width:346px;
+    left: 10px;
+    top:80px;
+    height: 2680px;
+    
+}
